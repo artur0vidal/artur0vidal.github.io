@@ -3,8 +3,8 @@ const fs = require("fs");
 function generate() {
   const metadata = {
     image:
-      "https://gateway.pinata.cloud/ipfs/QmP8aCcx6ZPeRoaAH5gzXq224Ro4NnehmLxf8nWPM19QiV",
-    name: "Trace NFT Pass",
+      "https://gateway.pinata.cloud/ipfs/QmWtgaVtriEhLo6dLPLK2EJ2VjCgSFMD8WQZcxzXpxH9r8",
+    name: "Trace NFT Passio",
     description:
       "A special Genesis NFT Pass collection, which will be distributed to holders who have bought or " +
       "received NFT Containers with OG NFT Cars inside. Genesis NFT Pass is a NFTs in metaverse Trace " +
@@ -14,10 +14,10 @@ function generate() {
       "NFT Pass holders.",
   };
 
-  for (let i = 1; i <= 9999; i++) {
+  for (let i = 0; i <= 9999; i++) {
     fs.writeFile(
       `./upload/${i}`,
-      JSON.stringify({ ...metadata, ...{ name: `Trace NFT Pass #${i}` } }),
+      JSON.stringify({ ...metadata, ...{ name: `Trace NFT Passio #${i}` } }),
       function (err) {
         if (err) throw err;
         console.log(`Complete ${i}`);
