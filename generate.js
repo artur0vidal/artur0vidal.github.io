@@ -3,8 +3,8 @@ const fs = require("fs");
 
 function generate() {
   const metadata = {
-    image: "https://artur0vidal.github.io/image/qr.mp4",
-    name: "Genesis NFT Pass",
+    animation_url: "https://artur0vidal.github.io/image/qr.mp4",
+    name: "Trace Genesis NFT Pass",
     description:
       "A special Genesis NFT Pass collection, which will be distributed to TRACE holders " +
       "who have bought or received NFT Containers with OG NFT Cars inside. Genesis NFT Pass " +
